@@ -1,59 +1,46 @@
 *{
     margin: 0;
     padding: 0;
-}
-body{
-    width: 1440px;
+    box-sizing: border-box;
 }
 header{
     font-family: 'Heebo', sans-serif;
     text-align: center;
-    align-items: center;
     font-size: 20px;
- 
-    height: 117px;
-    width: 1440px;
-    left: 0px;
-    top: 0px;
-    border-radius: 0px;
-}
-.deb{
-    padding-top: 40px;
-    align-items: center;
+    padding: 20px;
 }
 header a{
+    display: inline-flex;
+    margin: 5px;
     text-decoration: none;
     color: black;
-    margin-right: 15px;
 }
 .un{
     background-image: url(mom1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     display: grid;
     grid-template-columns: auto;
-    height: 691px;
-    width: 1490px;
+    padding: 200px;   
 }
-
 .un img{
     text-align: center;
     height: 86px;
     width: 150px;
-    margin-left: 600px;
-    margin-top: 200px;
+    margin-left: 350px;
+    margin-top: x;
     border-radius: 5px;
     background-color: white;
 }
 .text1{
   height: 70px;
   width: 364px;
-  margin-left: 500px;
-  margin-top: 300px;
+  margin-left:250px;
+  margin-top:120px;
   position: absolute;
   background-color: #605555;
   color: white;
-
 }
 .text1 p{
     font-family:'Heebo', sans-serif;
@@ -63,10 +50,9 @@ header a{
     padding: 10px;
 }
 .text2{
-    height: 48px;
-    width: 344px;
-    margin-bottom: 200px;
-    margin-left: 500px;
+    margin-top: 100px;
+    color: white;
+    margin-left: 60px;
 }
 .text2 p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -79,42 +65,42 @@ header a{
 }
 .deux{
     display: inline-flex;
-     height: 400px;
+    height: 500px;  
 }
 .text3{
-    display: grid;
+    display: flex;
     height: 140px;
     width: 150px;
+    align-items: center;
     margin-left: 160px;
-    margin-top: 50px;
+    margin-top: 80px;
     border-radius: 160px;
     border: 2px solid #369E;
 }
 .text3 img{
-    margin-left: 45px;
-    margin-top: 40px;
+    margin-left: 53px;
+    margin-top: 10px;
     width: 50px;
+    height: 50px;
 }
-
- .text4{
-    margin-left: 90px;
+.text4{
+    margin-left: -220px;
     text-align: center;
-    /* line-height: 10px; */
 }
 .text4 h2{
+    margin-left: 4px;
+    margin-top: 250px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 15px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 12px;
     text-align: center;
     color: #000000;
-} 
-.flex{
-    margin-left: 80px;
 }
 .flex{
-    display: inline-flex;
-    margin-right: 160px;
-    text-align: center;
+    /* display: inline-flex; */
+    margin-right: 60px;
+    /* text-align: center; */
 }
 .text4 p{
     height: 20px;
@@ -129,7 +115,7 @@ header a{
 }
 .trois{
     height: 300px;
-    width: 1440px;
+    /* width: 95%; */
     background-color: #C4C4C470;
 }
 .trois h1{
@@ -151,33 +137,23 @@ header a{
 .quar{
     display: grid;
     height: 600px;
-    width: 1400px;
     text-align: center;
     background-color: #649A97;
 }
 .quar img{
     height: 280px;
-    width: 320px;
+    width: 300px;
     margin-right: 20px;
 }
 .cin{
-    /* height: 500px;
-    width: 1440px;
-    background-color: white; */
-    padding: 50px;
-    width: 1440px;
-}
-.pro{
-    width: 1000px;
-    display: flex;
-    justify-content: space-around;
-
+    height: 500px;
+    background-color: white;
 }
 .cin h2{
    text-align: center;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    font-size: 35px;
-   
+   margin-top: 80px;
 }
 .cin p{
     text-align: center;
@@ -212,18 +188,6 @@ progress::-webkit-progress-bar{
    font-weight: 700;
    font-family: Georgia, 'Times New Roman', Times, serif; 
 }
-.bén p{
-    margin-left: 60px;  
-}
-.niar p{
-    margin-left: 120px;
-}
-.niét p{
-    margin-left: 100px;
-}
-.niént p{
-    margin-left: 50px;
-}
 .pro2 p{
     margin-right: 250px;
     font-size: 15px;
@@ -251,6 +215,9 @@ progress::-webkit-progress-bar{
     letter-spacing: 0cm;
     text-align: center;
 }
+ .pro{
+    display: flex;
+ }
 .pro1{
     float: left;
     width: 720px;
@@ -264,134 +231,48 @@ progress::-webkit-progress-bar{
     background-color: white;
 }
 .six{
-   height: 800px;   
-background-color: #A5C0AD;
+    padding: 50px;
+    background-color: #A5C0AD;
 }
 .six h2{
-   color: white;
-   height: 32px;
-   width: 180px;  
-   margin-left: 600px;
+   display: flex;
+   justify-content: center;
    font-family: Arial, Helvetica, sans-serif;
    font-size: 30px;
    font-weight: 400px;
-   line-height: 34px;
-   text-align: center;
+   color: white;  
 }
 .six p{
    color: white;
-   height: 54px;
+   height: 20px;
    font-family: Arial, Helvetica, sans-serif;
    text-align: center;
-
 }
 .avatar{
     display:flex;
-    justify-content: center;
-    /* width: 1440px; */
-    /* height: 404px; */
 }
 .avatar h4{
     height: 80px;
     width: 270px;
-    margin-left: 50px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-    line-height: 21px;
+    background: white;
+    margin-left:45px;
     font-weight: 400;
     text-align: center;
 }
 .avatar img{
+    display: flex;
     text-align: center;
     height: 300px;
     width: 270px; 
+    margin-left:45px;
     object-fit: cover; 
-    background-color: white; 
-}
-.imagejc{
-    display: flex;
-    margin-left: 1px;
     margin-top: 55px;
-}
-.jane{
-    height: 400px;
-    width: 270px; 
-    margin-left: 10px;
-    margin-top: 55px;
-    background-color: white;
-}
-.jane h4{
-    margin-left: 0px;
-    background:white;
-    box-shadow: 1px 1px 1px 1px white;
-    margin-bottom: 5px;
-} 
-.imagejj{
-    display: flex;
-    margin-left: 1px;
-    margin-top: 55px;
-}
-.jacob{
-    height: 400px;
-    width: 270px; 
-    margin-top: 55px;
-    margin-left: 60px;
-    background-color: white;
-}
-.jacob h4{
-    margin-left: 0px;
-    background:white;
-    box-shadow: 1px 1px 1px 1px white;
-    margin-bottom: 5px;
-} 
-.imagela{
-    display: flex;
-    margin-left: 1px;
-    margin-top: 55px;
-}
-.leslie {
-    height: 400px;
-    width: 270px; 
-    margin-left: 60px;
-    margin-top: 55px;
-    background-color: white;
-    }
-.leslie h4{
-    margin-left: 0px;
-    background:white;
-    box-shadow: 1px 1px 1px 1px white;
-    margin-bottom: 5px;
-} 
-.imagebs{
-    display: flex;
-    margin-left: 1px;
-}
-.brook{
-    height: 400px;
-    width: 270px; 
-    margin-left: 50px;
-    margin-top: 55px;
-
-}
-.cadre-blanc{
-    background:white;
-    
-
-}
-.image-avatar img{
-
-  padding-left: 50px;
-
-}
-.brook h4{
-    margin-left:0px ;
-    background:white;
-    box-shadow: 1px 1px 1px 1px white;
-    margin-bottom: 5px;
-} 
+ } 
 .sept{
     height: 300px;
-    width: 1400px;
+    /* width: 1400px; */
     margin-top: 50px;
     background-color: white;
     text-align: center;
@@ -409,7 +290,7 @@ background-color: #A5C0AD;
 }
 footer{
     height: 500px;
-    width: 1440px;
+    /* width: 1440px; */
     margin-top: 50px;
     background-color: rgb(238, 231, 231);
 }
@@ -444,24 +325,293 @@ footer h6{
     margin-top: 65px;
 }
 @media screen and (max-width:480px){
-    boby{
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-    header{
-        width: 5%;
-        display: none;
-    }
-}
-
-   
-   
     
-
-        
+     header{
+        width: 100%;
+        /* margin-left:-40px; */
+        font-size: 8px;
+        background-color: aqua;
+      }
+      nav {
+        margin-left: -80px;
+      }
+      main{
+        width: 100%;
+      }
+      .un{
+        background: plum;
+        background-image: none;
+          width: 100%;
+          height: 50%;
+      }
+      .logo img{
+          width: 50%;
+          height: 80%;
+          margin-left:-60px;
+      }
+      .text1{
+        width: 150px;
+        margin-left:-120px;
+        margin-top: 40px; 
+      }
+      .text1 p{
+          font-size: 15px;
+          margin-bottom: 50px;
+          margin-left: 30px;
+      } 
+      .text2 p{
+        font-size: 15px;
+        display: inline-flex;
+        justify-content: center;
+        margin-left: -225px;
+      }
+      .deux{
+      display: grid;
+      /* grid-template-columns: 0fr 1fr 1fr; */
+      margin-left: -60px;
+      margin-bottom: 130px;
+      }
       
+      .text3{
+        width: 90px;
+        height: 90px; 
+      }
+      .text3 img{
+        width: 40px;
+        margin-left: 23px;
+      }
+      .text4{
+        font-size: 5px;
+      }
+       
+      .trois{
+          width: 30%;
+          align-items: center;
+      }
+      .trois h1{
+          margin-LEFt: 180px;
+          font-size: 12px;
+          font-weight: 600;
+      }
+      .trois p{
+          margin-left: 20px;
+          font-size: 8px;
+      }
+      .quar{
+          display: grid;
+          width: 30%;
+          height: 90%;
+          align-items: center;
+      }
+       .quar img{
+        width: 80px; 
+        height: 30px; 
+          
+      }
+       .cin{
+          width: 30%;
+          margin-left: 10px;
+      }
+      .cink{
+          width: 60%;
+          margin-left: 100px;
+          font-size: 10px;
+      }
+      .pro{
+          margin-right: -100px;
+          margin-left: 90px;
+      }
+      .pro p{
+          font-size: 13px;
+          font-weight: 600;
+          margin-left: 25px;
+      }
+      .pro progress{
+          width: 100%;
+         margin-top: 50px;
+          margin-left: 20px;
+          
+      }
+      .pro1{
+          width: 15%;
+          height: 10%;
+          margin-right: 20px;
+      }
+      .pro2{
+          width: 15%;
+          height: 10%;
+          margin-right: 20px;
+      }
+      .pro span{
+         font-size: 10px;
+         font-weight: 600;
+         margin-left: 48px;
+         margin-top: 30px;
+      }
+      .avancer{
+          width: 30%;
+          display: flex;
+          
+      }
 
-    @media(max-width:768px){
+      .six{
+          display: flex;
         
+          align-items: center;
+          background-color: #A5C0AD;
+      }
+      .avatar{
+          width: 10%;
+          height: 10%;
+          
+      }
+      .avatar img{
+          margin-left: -60px;
+           width: 30%;
+           height: 20%;
+      }
+      .imagejc{
+          margin-left: 1px;
+          margin-top: 55px;
+      }
+      .jane{
+          height: 400px;
+          width: 270px; 
+          margin-left: 50px;
+          margin-top: 55px;
+          background-color:#A5C0AD ;
+      }
+      .cooper{
+          height: 400px;
+          width: 270px; 
+          margin-left: 0px;
+          background-color:#A5C0AD 
+      }
+      .jane h4{
+         width: 25.5%;
+         height: 10%;
+         font-size: 8px;
+         margin-top: -265px;
+         margin-left: -50px;
+      }
+      .imagejj{
+          margin-left: 1px;
+          margin-top: 55px;
+      }
+      .jacob{
+          height: 400px;
+          width: 270px; 
+          margin-left: 50px;
+          margin-top: 55px;
+          background-color: #A5C0AD;
+      }
+      .jacob h4{
+          width: 113.5%;
+          height: 10%;
+          font-size: 8px;
+          margin-left:-260px;
+          margin-top: -270px;
+      } 
+      .jones{
+          height: 400px;
+          width: 270px; 
+          margin-left: -200px;
+          
+      }
+      .imagela{
+          margin-left: 1px;
+          margin-top: 55px;
+      }
+      .leslie {
+          height: 400px;
+          width: 270px; 
+          margin-left: 50px;
+          margin-top: 55px;
+          background-color: #A5C0AD;
+          }
+      .leslie h4{
+         width: 41.5%;
+         height: 10%;
+         font-size: 8px;
+         margin-top: -265px;
+         margin-left: -140px;
+      } 
+      .alex{
+          height: 400px;
+          width: 270px; 
+          margin-left: -80px;
+          
+      }
+      .imagebs{
+          margin-left: 1px;
+          margin-top: 55px;
+      }
+      .brook{
+          height: 400px;
+          width: 270px; 
+          margin-left: 50px;
+          background-color:white;
+      }
+      .brook h4{
+          width: 25.5%;
+          height: 8%;
+          font-size: 8px;
+          margin-top: -255px;
+          margin-left: -500px;
+          background-color: white;
+      } 
+      .silm{
+          height: 400px;
+          width: 270px; 
+          margin-left: -400px;
+      } */
+
+      .sept{
+          width: 30%;
+          background-color: white;
+          text-align: center;
+      }
+     
+      footer{
+         
+          width: 30%;
+          background-color: rgb(238, 231, 231);
+      }
+      footer h4{
+         font-size: 15px;
+         text-align: center;
+      }
+      footer h6{
+          text-align: center;
+          font-size: 12px;
+          padding: 80px;
+      }
+      .foot{
+          display: inline-flex;
+      }
+      .foot1{
+          font-size: 10px;
+          margin-left: 70px;
+          margin-top: 65px;
+      }
+      .foot2{
+          width: 15%;
+          font-size: 10px;
+          margin-left: 50px;
+          margin-top: 55px;
+      }
+      .foot3{
+          font-size: 10px;
+          margin-left: 50px;
+          margin-top: 65px;
+      }
+      .foot4{
+          font-size: 10px;
+          margin-left: 30px;
+          margin-top: 65px;
+      }
+
+
     }
+
+    
