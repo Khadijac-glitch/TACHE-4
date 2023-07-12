@@ -64,11 +64,12 @@ header a{
     color: white;
 }
 .deux{
-    display: inline-flex;
+    display:flex;
+    justify-content: space-between;
     height: 500px;  
 }
 .text3{
-    display: flex;
+    /* display: flex; */
     height: 140px;
     width: 150px;
     align-items: center;
@@ -79,7 +80,7 @@ header a{
 }
 .text3 img{
     margin-left: 53px;
-    margin-top: 10px;
+    margin-top: 50px;
     width: 50px;
     height: 50px;
 }
@@ -134,6 +135,7 @@ header a{
     line-height: 100px;
     justify-content: space-between;
 }
+
 .quar{
     display: grid;
     height: 600px;
@@ -182,16 +184,18 @@ progress::-webkit-progress-bar{
     border-radius: 20px;
 }
 .pro1 p{
+    display: flex;
    margin-right: 250px;
-   margin-top: 80px;
+   margin-top: 60px;
    font-size: 15px;
    font-weight: 700;
    font-family: Georgia, 'Times New Roman', Times, serif; 
 }
 .pro2 p{
+    display: flex;
     margin-right: 250px;
     font-size: 15px;
-    margin-top: 80px;
+    margin-top: 60px;
     font-weight: 700;
     font-family: Georgia, 'Times New Roman', Times, serif; 
  }
@@ -324,291 +328,6 @@ footer h6{
     margin-left: 180px;
     margin-top: 65px;
 }
-@media screen and (max-width:480px){
-    
-     header{
-        width: 100%;
-        /* margin-left:-40px; */
-        font-size: 8px;
-        background-color: aqua;
-      }
-      .un{
-        background: plum;
-        background-image: none;
-        width: 100%;
-        height: 50%;
-      }
-      .logo img{
-          width: 50%;
-          height: 80%;
-          margin-left:-20px;
-      }
-      .text1{
-        width: 150px;
-        margin-left:-75px;
-        margin-top: 40px; 
-      }
-      .text1 p{
-          font-size: 15px;
-          margin-bottom: 50px;
-          margin-left: 0px;
-      } 
-      .text2 p{
-        font-size: 15px;
-        display: flex;
-        justify-content: center;
-        margin-left: -100px;
-        height: 200px;
-        line-height: 25px;
-      }
-      .deux{
-      display: grid;
 
-      /* grid-template-columns: 0fr 1fr 1fr; */
-      margin-left: -60px;
-      margin-bottom: 130px;
-      }
-      
-      .text3{
-        width: 90px;
-        height: 90px; 
-      }
-      .text3 img{
-        width: 40px;
-        margin-left: 23px;
-      }
-      .text4{
-        font-size: 5px;
-      }
-       
-      .trois{
-          width: 30%;
-          align-items: center;
-      }
-      .trois h1{
-          margin-LEFt: 180px;
-          font-size: 12px;
-          font-weight: 600;
-      }
-      .trois p{
-          margin-left: 20px;
-          font-size: 8px;
-      }
-      .quar{
-          display: grid;
-          width: 30%;
-          height: 90%;
-          align-items: center;
-      }
-       .quar img{
-        width: 80px; 
-        height: 30px; 
-          
-      }
-       .cin{
-          width: 30%;
-          margin-left: 10px;
-      }
-      .cink{
-          width: 60%;
-          margin-left: 100px;
-          font-size: 10px;
-      }
-      .pro{
-          margin-right: -100px;
-          margin-left: 90px;
-      }
-      .pro p{
-          font-size: 13px;
-          font-weight: 600;
-          margin-left: 25px;
-      }
-      .pro progress{
-          width: 100%;
-         margin-top: 50px;
-          margin-left: 20px;
-          
-      }
-      .pro1{
-          width: 15%;
-          height: 10%;
-          margin-right: 20px;
-      }
-      .pro2{
-          width: 15%;
-          height: 10%;
-          margin-right: 20px;
-      }
-      .pro span{
-         font-size: 10px;
-         font-weight: 600;
-         margin-left: 48px;
-         margin-top: 30px;
-      }
-      .avancer{
-          width: 30%;
-          display: flex;
-          
-      }
-
-      .six{
-          display: flex;
-        
-          align-items: center;
-          background-color: #A5C0AD;
-      }
-      .avatar{
-          width: 10%;
-          height: 10%;
-          
-      }
-      .avatar img{
-          margin-left: -60px;
-           width: 30%;
-           height: 20%;
-      }
-      .imagejc{
-          margin-left: 1px;
-          margin-top: 55px;
-      }
-      .jane{
-          height: 400px;
-          width: 270px; 
-          margin-left: 50px;
-          margin-top: 55px;
-          background-color:#A5C0AD ;
-      }
-      .cooper{
-          height: 400px;
-          width: 270px; 
-          margin-left: 0px;
-          background-color:#A5C0AD 
-      }
-      .jane h4{
-         width: 25.5%;
-         height: 10%;
-         font-size: 8px;
-         margin-top: -265px;
-         margin-left: -50px;
-      }
-      .imagejj{
-          margin-left: 1px;
-          margin-top: 55px;
-      }
-      .jacob{
-          height: 400px;
-          width: 270px; 
-          margin-left: 50px;
-          margin-top: 55px;
-          background-color: #A5C0AD;
-      }
-      .jacob h4{
-          width: 113.5%;
-          height: 10%;
-          font-size: 8px;
-          margin-left:-260px;
-          margin-top: -270px;
-      } 
-      .jones{
-          height: 400px;
-          width: 270px; 
-          margin-left: -200px;
-          
-      }
-      .imagela{
-          margin-left: 1px;
-          margin-top: 55px;
-      }
-      .leslie {
-          height: 400px;
-          width: 270px; 
-          margin-left: 50px;
-          margin-top: 55px;
-          background-color: #A5C0AD;
-          }
-      .leslie h4{
-         width: 41.5%;
-         height: 10%;
-         font-size: 8px;
-         margin-top: -265px;
-         margin-left: -140px;
-      } 
-      .alex{
-          height: 400px;
-          width: 270px; 
-          margin-left: -80px;
-          
-      }
-      .imagebs{
-          margin-left: 1px;
-          margin-top: 55px;
-      }
-      .brook{
-          height: 400px;
-          width: 270px; 
-          margin-left: 50px;
-          background-color:white;
-      }
-      .brook h4{
-          width: 25.5%;
-          height: 8%;
-          font-size: 8px;
-          margin-top: -255px;
-          margin-left: -500px;
-          background-color: white;
-      } 
-      .silm{
-          height: 400px;
-          width: 270px; 
-          margin-left: -400px;
-      } */
-
-      .sept{
-          width: 30%;
-          background-color: white;
-          text-align: center;
-      }
-     
-      footer{
-         
-          width: 30%;
-          background-color: rgb(238, 231, 231);
-      }
-      footer h4{
-         font-size: 15px;
-         text-align: center;
-      }
-      footer h6{
-          text-align: center;
-          font-size: 12px;
-          padding: 80px;
-      }
-      .foot{
-          display: inline-flex;
-      }
-      .foot1{
-          font-size: 10px;
-          margin-left: 70px;
-          margin-top: 65px;
-      }
-      .foot2{
-          width: 15%;
-          font-size: 10px;
-          margin-left: 50px;
-          margin-top: 55px;
-      }
-      .foot3{
-          font-size: 10px;
-          margin-left: 50px;
-          margin-top: 65px;
-      }
-      .foot4{
-          font-size: 10px;
-          margin-left: 30px;
-          margin-top: 65px;
-      }
-
-
-    }
 
     
